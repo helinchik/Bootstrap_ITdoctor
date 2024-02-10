@@ -3,8 +3,6 @@
   --color2: #52339a;
 }
 
-header,
-footer,
 section {
   padding: 100px 0;
 }
@@ -91,7 +89,7 @@ background-color: var(--color2);
 }
 
 /* ===о курсе===== */
-.about, .shedule, .author {
+.about, .shedule, .author, .buy {
   background-color: #eee;
 
 }
@@ -152,11 +150,19 @@ margin: 15px auto 30px;
 
 /* =====отзывы===== */
 .img-reviews{
-  border-radius: 50%;
+  border-radius: 50% !important;
   border: 3px solid var(--color1);
   
 
 }
 .line-reviews {
   color: var(--color2);
+}
+
+/* =====подвал==== */
+footer {
+  padding: 30px 0;
+}
+.btn-border {
+  border-radius: 50%;
 }
